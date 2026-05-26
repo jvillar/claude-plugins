@@ -8,5 +8,11 @@
     "description": "Personal marketplace de plugins para Claude Code",
     "version": "0.1.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "hola-mundo",
+      "source": "./plugins/hola-mundo",
+      "description": "Plugin de ejemplo: muestra command, skill y agent"
+    }
+  ]
 }

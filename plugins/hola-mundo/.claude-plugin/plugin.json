@@ -1,0 +1,8 @@
+{
+  "name": "hola-mundo",
+  "version": "0.1.0",
+  "description": "Plugin de ejemplo que muestra la estructura: un command, una skill y un agent",
+  "author": {
+    "name": "jvillar"
+  }
+}
