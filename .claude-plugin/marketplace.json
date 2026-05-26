@@ -13,6 +13,11 @@
       "name": "hola-mundo",
       "source": "./plugins/hola-mundo",
       "description": "Plugin de ejemplo: muestra command, skill y agent"
+    },
+    {
+      "name": "bash-guard",
+      "source": "./plugins/bash-guard",
+      "description": "Two-stage Bash safety guard: static fast-path + LLM fallback. Auto-allows safe commands, asks for risky ones."
     }
   ]
 }

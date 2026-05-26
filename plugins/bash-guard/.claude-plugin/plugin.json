@@ -1,0 +1,8 @@
+{
+  "name": "bash-guard",
+  "version": "0.1.0",
+  "description": "Two-stage Bash command guard for Claude Code: fast static check + LLM fallback for uncertain cases. Auto-allows commands clearly bounded to the project, asks for anything risky.",
+  "author": {
+    "name": "jvillar"
+  }
+}
