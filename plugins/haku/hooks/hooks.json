@@ -1,13 +1,16 @@
 {
-  "SessionStart": [
-    {
-      "hooks": [
-        {
-          "type": "command",
-          "command": "sh ${CLAUDE_PLUGIN_ROOT}/scripts/inject-haku-style.sh",
-          "timeout": 2
-        }
-      ]
-    }
-  ]
+  "description": "haku plugin - injects haiku→haku 🧁 style override at session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh ${CLAUDE_PLUGIN_ROOT}/scripts/inject-haku-style.sh",
+            "timeout": 2
+          }
+        ]
+      }
+    ]
+  }
 }
