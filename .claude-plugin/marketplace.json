@@ -1,0 +1,12 @@
+{
+  "name": "jvillar-claude-plugins",
+  "owner": {
+    "name": "jvillar",
+    "url": "https://github.com/jvillar"
+  },
+  "metadata": {
+    "description": "Personal marketplace de plugins para Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": []
+}
