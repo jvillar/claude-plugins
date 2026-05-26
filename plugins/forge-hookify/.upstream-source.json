@@ -1,0 +1,8 @@
+{
+  "repo": "dmedina-dev/dev-forge",
+  "plugin_path": "plugins/forge-hookify",
+  "tracked_version": "1.0.3",
+  "cloned_from_commit": "330000f7b6c38297b4604bb13ae475ea7126707a",
+  "cloned_at": "2026-05-26T08:54:05Z",
+  "license_note": "Original work by dmedina (me@dmedina.dev). Copied under the source repo's license. See dev-forge upstream for terms."
+}

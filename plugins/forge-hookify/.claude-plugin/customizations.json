@@ -1,0 +1,35 @@
+{
+  "origin": {
+    "type": "github",
+    "repo": "anthropics/claude-code",
+    "path": "plugins/hookify",
+    "ref": "main",
+    "commit": "cc898dc369",
+    "fetched_at": "2026-05-21",
+    "check_url": "https://github.com/anthropics/claude-code/tree/main/plugins/hookify"
+  },
+  "upstream_status": {
+    "last_checked": "2026-05-21",
+    "latest_ref": "main",
+    "latest_commit": "cc898dc369",
+    "has_updates": false,
+    "summary": "Upstream advanced (anthropics/claude-code) but no commits touched our subpath; tracking refreshed.",
+    "changes": []
+  },
+  "customizations": [
+    {
+      "id": "custom-01",
+      "type": "excluded",
+      "target": "README.md",
+      "summary": "Excluded upstream README",
+      "reason": "Help command and writing-rules skill provide equivalent documentation."
+    },
+    {
+      "id": "custom-02",
+      "type": "modified",
+      "target": "hooks/*.py, core/rule_engine.py",
+      "summary": "Changed Python imports from hookify.core.* to core.* for package name independence",
+      "reason": "Plugin directory is forge-hookify not hookify, so absolute package imports like 'from hookify.core' would fail. Changed to relative 'from core.*' since PLUGIN_ROOT is already in sys.path."
+    }
+  ]
+}

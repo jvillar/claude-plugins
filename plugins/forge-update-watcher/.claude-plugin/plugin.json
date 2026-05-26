@@ -1,0 +1,8 @@
+{
+  "name": "forge-update-watcher",
+  "version": "0.1.0",
+  "description": "Detects upstream updates to plugins that track a source repo via .upstream-source.json. Notifies on session start; manual command applies updates.",
+  "author": {
+    "name": "jvillar"
+  }
+}

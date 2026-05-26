@@ -1,0 +1,8 @@
+{
+  "name": "haku",
+  "version": "0.1.0",
+  "description": "Replaces 'haiku' with 'haku 🧁' in Claude's responses. Style override injected at session start.",
+  "author": {
+    "name": "jvillar"
+  }
+}

@@ -23,6 +23,16 @@
       "name": "statusline",
       "source": "./plugins/statusline",
       "description": "Three-line statusline: folder/branch, context + rate-limit bars, tokens + turns count."
+    },
+    {
+      "name": "forge-hookify",
+      "source": "./plugins/forge-hookify",
+      "description": "[Mirror of dmedina-dev/dev-forge] Regex rule engine: warn/block on bash, edits, prompts via .local.md files."
+    },
+    {
+      "name": "forge-update-watcher",
+      "source": "./plugins/forge-update-watcher",
+      "description": "Notifies on SessionStart when a tracked plugin has an upstream update. Includes /update-check and /update-apply commands."
     }
   ]
 }

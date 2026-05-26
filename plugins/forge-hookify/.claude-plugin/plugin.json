@@ -1,0 +1,9 @@
+{
+  "name": "forge-hookify",
+  "description": "Create custom hooks from natural language to prevent unwanted behaviors. Regex-based rules in .local.md files, no coding or restart required.",
+  "version": "1.0.3",
+  "author": {
+    "name": "dmedina",
+    "email": "me@dmedina.dev"
+  }
+}
