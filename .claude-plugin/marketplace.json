@@ -33,6 +33,11 @@
       "name": "forge-update-watcher",
       "source": "./plugins/forge-update-watcher",
       "description": "Notifies on SessionStart when a tracked plugin has an upstream update. Includes /update-check and /update-apply commands."
+    },
+    {
+      "name": "haku",
+      "source": "./plugins/haku",
+      "description": "Stylistic override: rename 'haiku' to 'haku 🧁' in Claude's responses via SessionStart hook."
     }
   ]
 }
