@@ -18,6 +18,11 @@
       "name": "bash-guard",
       "source": "./plugins/bash-guard",
       "description": "Two-stage Bash safety guard: static fast-path + LLM fallback. Auto-allows safe commands, asks for risky ones."
+    },
+    {
+      "name": "statusline",
+      "source": "./plugins/statusline",
+      "description": "Three-line statusline: folder/branch, context + rate-limit bars, tokens + turns count."
     }
   ]
 }

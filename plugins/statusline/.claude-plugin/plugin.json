@@ -1,0 +1,8 @@
+{
+  "name": "statusline",
+  "version": "0.1.0",
+  "description": "Three-line statusline for Claude Code: folder + branch, context + 5h/7d rate-limit bars, and tokens + turn count.",
+  "author": {
+    "name": "jvillar"
+  }
+}
